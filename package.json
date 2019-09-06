@@ -1,0 +1,34 @@
+{
+  "name": "TestWork",
+  "version": "1.0.0",
+  "description": "My test project",
+  "author": "Ostrovskyi Bohdan",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.28",
+    "eslint": "^6.3.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-loader": "^3.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "nuxt": "^2.0.0",
+    "prettier": "^1.18.2",
+    "vue": "^2.6.10",
+    "vue2-google-maps": "^0.10.7",
+    "vuex-persistedstate": "^2.5.4"
+  },
+  "devDependencies": {}
+}
